@@ -10,7 +10,7 @@ if($koneksi->connect_error) {
     echo "sambungan basis data berhasil";
 }
 
-$qry = "delete from mahasiswa where nim=" . $_GET["nim"];
+$qry = "delete from data_mahasiswa where nim=" . $_GET["nim"];
 
 if($koneksi->query($qry) === true) {
     echo "<br> data ". $_GET["nim"]. " berhasil dihapus".'<a href="main.php">lihat data</a>';

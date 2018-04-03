@@ -2,7 +2,7 @@
 $server = "localhost";
 $username = "root";
 $password = "";
-$db = "uts";
+$db = "utsmitra";
 
 $koneksi = new mysqli($server, $username, $password, $db);
 if($koneksi->connect_error) {
@@ -15,7 +15,7 @@ $nim 	= $_POST['nim'];
 $nama   = $_POST['nama'];
 $jurusan = $_POST['jurusan'];
 
-$query = "insert into mahasiswa values('$nim','$nama','$jurusan')";
+$query = "insert into data_mahasiswa values('$nim','$nama','$jurusan')";
 
 //echo "<br>".$query;
 

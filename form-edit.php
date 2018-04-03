@@ -9,7 +9,7 @@ $koneksi = $koneksiObj->getKoneksi();
 if($koneksi->connect_error) {
     echo "Gagal koneksi : ". $koneksi->connect_error;
 }
-$query = "select * from mahasiswa where nim='".
+$query = "select * from data_mahasiswa where nim='".
     $_GET["nim"]. "'";
 $data = $koneksi->query($query);
 $namaBarang = "";

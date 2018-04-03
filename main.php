@@ -32,7 +32,7 @@ if($koneksi->connect_error) {
     echo "</td></tr>";
 }
 
-$query = "select * from mahasiswa";
+$query = "select * from data_mahasiswa";
 $data = $koneksi->query($query);
 if($data->num_rows <= 0) {
     echo "<tr><td colspan='4'>";
