@@ -6,4 +6,3 @@ setelah itu data akan disimpan dan masuk ke dalam form simpan data
 kemudian akan muncul hasil data yang di inputkan ke dalam form simpan data
 di dalam tampilan form tersebut ada opsi edit atau update.
 ada juga opsi untuk menghapus data apabila data sudah tidak diperlukan.
-
