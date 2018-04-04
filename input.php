@@ -1,6 +1,3 @@
-<htnl !DOCTYPE>
-<head>
-	<title>Tambah Data</title>
 </head>
 <body>
 	<h2> Aplikasi Data Mahasiswa</h2>
